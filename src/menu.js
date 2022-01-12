@@ -32,12 +32,12 @@ export default function menu(){
     </div>
     <div class="page2">
     </div> `;
-    const marghe= new pizzas('../images/margherita.jpg','Margherita','Mozzarella and tomato on a Classic base ','6€');
-    const formaggi= new pizzas('../images/Picante.jpg','4 Formaggi Piccante','Pecorino, Italian blue cheese, mozzarella and Gran Milano cheese with tomato and rosemary. Drizzled with smoky chilli jam.','8€')
-    const Salami=new pizzas('../images/Salami.jpg','Salami','Pepperoni, mozzarella and tomato on a Classic base.','8€')
-    const Pancetta=new pizzas('../images/Pancetta.jpg','Pollo Pancetta','Chicken, crispy Italian pancetta, tomato with garlic, red & yellow roasted peppers, mozzarella and parsley.','10€')
-    const Veneziana=new pizzas('../images/veneziana.jpg','Veneziana','Pine kernels, red onion, capers, black olives, sultanas, mozzarella and tomato on a Classic base .','8€')
-    const Sbocco=new pizzas('../images/sbocco.jpg','Sloppy Giuseppe','Hot spiced beef, green pepper, red onion, mozzarella and tomato on a Classic base.','10€')
+    const marghe= new pizzas('./images/margherita.jpg','Margherita','Mozzarella and tomato on a Classic base ','6€');
+    const formaggi= new pizzas('./images/Picante.jpg','4 Formaggi Piccante','Pecorino, Italian blue cheese, mozzarella and Gran Milano cheese with tomato and rosemary. Drizzled with smoky chilli jam.','8€')
+    const Salami=new pizzas('./images/Salami.jpg','Salami','Pepperoni, mozzarella and tomato on a Classic base.','8€')
+    const Pancetta=new pizzas('./images/Pancetta.jpg','Pollo Pancetta','Chicken, crispy Italian pancetta, tomato with garlic, red & yellow roasted peppers, mozzarella and parsley.','10€')
+    const Veneziana=new pizzas('./images/veneziana.jpg','Veneziana','Pine kernels, red onion, capers, black olives, sultanas, mozzarella and tomato on a Classic base .','8€')
+    const Sbocco=new pizzas('./images/sbocco.jpg','Sloppy Giuseppe','Hot spiced beef, green pepper, red onion, mozzarella and tomato on a Classic base.','10€')
     addPizza(marghe);
     addPizza(formaggi);
     addPizza(Salami);
