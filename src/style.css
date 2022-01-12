@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(238, 235, 235);
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    flex: 1;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px 95px;
+    background-color: rgb(77, 74, 74);
+    color: rgb(238, 235, 235) ;
+}
+ul{
+    display: flex;
+    align-items:  center;
+    gap:30px;
+    list-style-type: none;
+    margin: 0;
+}
+li{
+    cursor: pointer;
+}
+.page, .page3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 75px ;
+    color: rgb(63, 60, 60);
+}
+.page2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 75px ;
+    color: rgb(63, 60, 60);
+    gap: 18px;
+}
+.page3{
+    flex-direction: column;
+    text-align: center;
+}
+
+.page4{
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+    padding: 25px 75px ;
+    color: rgb(63, 60, 60);
+}
+.pizza{
+    display: flex;
+    gap: 15px;
+    flex:1 0 25%;
+}
+.pizzaPic{
+    width:250px; 
+    border-radius: 15px;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding:10px 160px;
+}
+.text3, .text4{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.text4{
+    flex: 1 0 50%;
+}
+.maps{
+    width:100%; 
+    height: 250px;
+    margin-top: 10px;
+}
+.pic{
+    height: 540px;
+    width:auto;
+    border-radius: 15px;
+}
+.about{
+    width:100%;
+    height: auto;  
+    border-radius: 15px;
+    margin: 35px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 25px;
+    gap:15px;
+}
+.description, .desc2{
+    font-size: 19px;
+    font-weight: lighter;
+}
+.desc2{
+    padding-top: 5px;
+}
+.Title, .name{
+    font-size: 32px;
+    font-weight: bold;
+}
+.name{
+    cursor: pointer;
+}
+.sub, .sub1{
+    font-size: 24px;
+    font-weight:300;
+}
+.sub1{
+    width:115px;
+}
+.footer{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(77, 74, 74);
+    color: rgb(238, 235, 235) ;
+}
+.hours{
+    display: flex;
+    flex-direction: column;
+}
+.day{
+    display: flex;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
