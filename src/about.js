@@ -17,7 +17,7 @@ export default function about(){
         </ul>
     </div>
     <div class="page3">
-        <div><img class="about" src="../src/god2.png"><div>
+        <div><img class="about" src="../images/god2.png"><div>
         <div class="text2">
             <div class="Title">For the love of pizza</div>
             <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto in eaque vel assumenda, facilis ipsam. Incidunt recusandae quibusdam ab, ad quod sint accusamus. Corporis accusamus repellat error animi nisi ipsam veritatis praesentium in tempore nam repellendus ipsum, suscipit perferendis fugiat!</div>

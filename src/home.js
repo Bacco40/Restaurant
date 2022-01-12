@@ -25,7 +25,7 @@ export default function homePage(){
                 <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11134.787260093215!2d10.3740072!3d45.7572238!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc80bdad73b04f690!2sPizzeria%20La%20Bussola!5e0!3m2!1sit!2sit!4v1641836239977!5m2!1sit!2sit" style="border:0;" allowfullscreen=""></iframe>
             </div>
         </div>
-        <div ><img class="pic" src="../src/jesus.webp"></div>
+        <div ><img class="pic" src="../images/jesus.webp"></div>
     </div> `
     const name=document.querySelector('.name');
     name.addEventListener('click',()=>{homePage();});
